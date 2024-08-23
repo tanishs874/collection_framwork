@@ -1,0 +1,174 @@
+1)How to make ArrayList and add elements in it .
+
+package hero;
+import java.util.ArrayList;
+public class flat {
+	public static void main(String [] args) {
+		ArrayList al = new ArrayList();
+		al.add(100);
+		al.add(200);
+		al.add(300);
+		System.out.println(al);
+	}
+}
+
+2)How to make Hashset and add elements in it.
+
+package hero;
+import java.util.HashSet;
+public class flat {
+	public static void main(String [] args) {
+		HashSet hs = new HashSet();
+		hs.add(100);
+		hs.add(200);
+		hs.add("tanish");
+		System.out.println(hs);
+	}
+}
+
+3) How to make HashMap and add elements in it.
+
+package hero;
+import java.util.HashSet;
+import java.util.ArrayList;
+import java.util.HashMap;
+public class flat {
+	public static void main(String [] args) {
+		HashMap hm = new HashMap();
+		hm.put(101,"tanish");
+		hm.put(200,"sharma");
+		hm.put(300,"Tanish");
+		System.out.println(hm);
+	}
+}
+
+
+4) How to use addAll method .
+
+package hero;
+import java.util.ArrayList;
+public class flat {
+	public static void main(String [] args) {
+		ArrayList al = new ArrayList();
+		al.add(100);
+		al.add(200);
+		al.add("tanish");
+		al.add("sharma");
+		ArrayList al1 = new ArrayList();
+		al1.add("TANISH SHARMA");
+		al1.add(10000);
+		al1.addAll(al);
+		System.out.println(al1);
+		
+	}
+}
+
+
+5) How to use add method .
+
+package hero;
+import java.util.ArrayList;
+public class flat {
+	public static void main(String [] args) {
+		ArrayList al = new ArrayList();
+		al.add(100);
+		al.add(200);
+		al.add("tanish");
+		al.add("sharma");
+		System.out.println(al.add("tanish sharma"));
+		System.out.println(al);
+	}
+}
+
+6) How to use contains method.
+
+package hero;
+import java.util.ArrayList;
+public class flat {
+	public static void main(String [] args) {
+		ArrayList al = new ArrayList();
+		al.add(100);
+		al.add(200);
+		al.add("tanish");
+		al.add("sharma");
+		System.out.println(al.contains("tanish"));
+	}
+}
+
+7)How to use isEmpty method.
+
+package hero;
+import java.util.ArrayList;
+public class flat {
+	public static void main(String [] args) {
+		ArrayList al = new ArrayList();
+		al.add(100);
+		al.add(200);
+		al.add("tanish");
+		al.add("sharma");
+		System.out.println(al.isEmpty());
+		ArrayList al1 = new ArrayList();
+		System.out.println(al1.isEmpty());
+	}
+}
+
+8)How to use remove method .
+package hero;
+import java.util.ArrayList;
+public class flat {
+	public static void main(String [] args) {
+		ArrayList al = new ArrayList();
+		al.add(100);
+		al.add(200);
+		al.add("tanish");
+		al.add("sharma");
+		System.out.println(al);
+		al.remove("tanish");
+		al.remove(0);
+		System.out.println(al);	
+	}
+}
+
+9)How to use removeAll method.
+
+package hero;
+import java.util.ArrayList;
+public class flat {
+	public static void main(String [] args) {
+		ArrayList al = new ArrayList();
+		al.add("aaa");
+		al.add("bbb");
+		al.add("ccc");
+		ArrayList al1 = new ArrayList();
+		al1.add("ddd");
+		al1.add("eee");
+		al1.add("bbb");
+		al.removeAll(al1);
+		System.out.println(al);
+	    System.out.println(al1);
+	}
+}
+
+
+10) How to use clear method.
+
+package hero;
+import java.util.ArrayList;
+public class flat {
+	public static void main(String [] args) {
+		ArrayList al = new ArrayList();
+		al.add("aaa");
+		al.add("bbb");
+		al.add("ccc");
+		al.clear();
+		ArrayList al1 = new ArrayList();
+		al1.add("ddd");
+		al1.add("eee");
+		al1.add("bbb");
+		al1.clear();
+		System.out.println(al);
+	    System.out.println(al1);
+	}
+}
+
+11)
