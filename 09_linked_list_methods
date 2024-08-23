@@ -1,0 +1,110 @@
+1) How to use addFirst method in LinkedList..
+
+package hero;
+import java.util.LinkedList;
+public class flat{
+	public static void main(String [] args) {
+		LinkedList ll = new LinkedList();
+		ll.add(12);
+		ll.add(123);
+		ll.add(1234);
+		System.out.println(ll);
+		ll.addFirst(1);
+		System.out.println(ll);
+	}
+}
+
+2)How to us addLast method in LinkedList..
+
+package hero;
+import java.util.LinkedList;
+public class flat{
+	public static void main(String [] args) {
+		LinkedList ll = new LinkedList();
+		ll.add(12);
+		ll.add(123);
+		ll.add(1234);
+		System.out.println(ll);
+		ll.addLast(12345);
+		System.out.println(ll);
+	}
+}
+
+3)How to use removeFirst method in LinkedList..
+
+package hero;
+import java.util.LinkedList;
+public class flat{
+	public static void main(String [] args) {
+		LinkedList ll = new LinkedList();
+		ll.add(12);
+		ll.add(123);
+		ll.add(1234);
+		System.out.println(ll);
+		ll.removeFirst();
+		System.out.println(ll);
+	}
+}
+
+4)How to use removeLast method in LinkedList..
+
+package hero;
+import java.util.LinkedList;
+public class flat{
+	public static void main(String [] args) {
+		LinkedList ll = new LinkedList();
+		ll.add(12);
+		ll.add(123);
+		ll.add(1234);
+		System.out.println(ll);
+		ll.removeLast();
+		System.out.println(ll);
+	}
+}
+
+5)How to use getFirst method in LinkedList..
+
+package hero;
+import java.util.LinkedList;
+public class flat{
+	public static void main(String [] args) {
+		LinkedList ll = new LinkedList();
+		ll.add(12);
+		ll.add(123);
+		ll.add(1234);
+		System.out.println(ll.getFirst());
+	}
+}
+
+6)How to use getLast method in LinkedList..
+
+package hero;
+import java.util.LinkedList;
+public class flat{
+	public static void main(String [] args) {
+		LinkedList ll = new LinkedList();
+		ll.add(12);
+		ll.add(123);
+		ll.add(1234);
+		System.out.println(ll.getLast());
+	}
+}
+
+7)LinkedList constructor..
+
+package hero;
+import java.util.LinkedList;
+import java.util.ArrayList;
+public class flat{
+	public static void main(String [] args) {
+		ArrayList al = new ArrayList();
+		al.add(456);
+		al.add("tanish sharma");
+		LinkedList ll = new LinkedList(al);
+		ll.add(12);
+		ll.add(123);
+		ll.add(1234);
+		System.out.println(ll);
+	}
+}
+
