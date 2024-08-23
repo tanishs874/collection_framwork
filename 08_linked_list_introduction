@@ -1,0 +1,82 @@
+1) LinkedList is and indexed based data strucutre..
+
+package hero;
+import java.util.LinkedList;
+public class flat{
+	public static void main(String [] args) {
+		LinkedList ll = new LinkedList();
+		ll.add(23);
+		ll.add(56);
+		ll.add("tanish");
+		ll.add('c');
+		ll.add(123.3);
+		System.out.println(ll);
+	}
+}
+
+
+2) LinkedList can store different data types or hetrogeneous data types..
+
+package hero;
+import java.util.LinkedList;
+public class flat{
+	public static void main(String [] args) {
+		LinkedList ll = new LinkedList();
+		ll.add(23);
+		ll.add(56);
+		ll.add("tanish");
+		ll.add('c');
+		ll.add(123.3);
+		System.out.println(ll);
+	}
+}
+
+3) LinkedList can store duplicate values..
+package hero;
+import java.util.LinkedList;
+public class flat{
+	public static void main(String [] args) {
+		LinkedList ll = new LinkedList();
+		ll.add(23);
+		ll.add(23);
+		ll.add("tanish");
+		ll.add("tanish");
+		ll.add(123.3);
+		System.out.println(ll);
+	}
+}
+
+4)LinkedList can store any number of null values..
+
+package hero;
+import java.util.LinkedList;
+public class flat{
+	public static void main(String [] args) {
+		LinkedList ll = new LinkedList();
+		ll.add(null);
+		ll.add(null);
+		ll.add("tanish");
+		ll.add(null);
+		ll.add(123.3);
+		System.out.println(ll);
+	}
+}
+
+5)LinkedList follows the insertion order..
+package hero;
+import java.util.LinkedList;
+public class flat{
+	public static void main(String [] args) {
+		LinkedList ll = new LinkedList();
+		ll.add(23);
+		ll.add(56);
+		ll.add("tanish");
+		ll.add('c');
+		ll.add(123.3);
+		System.out.println(ll);
+	}
+}
+
+
+6)LinkedList does not follow the sorting order..
+7)LinkedList are non-synchornized.
