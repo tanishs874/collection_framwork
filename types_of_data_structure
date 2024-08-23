@@ -1,0 +1,10 @@
+what is data structure --> It is the way by which we can store the data in efficient way means time and space..
+
+types of data structure --> 
+1-> Primitive data structure --> boolean , char , int , long , byte , short , float , double
+
+2-> Non Primitive data structure --> It is further divided into 2 types-->
+1-> Linear data structure -> Strings , Arrays , List , Set , Queue , ArrayList , Linked List , HashSet , LinkedHashSet
+2-> Non Linear data strucutre -> Graphs , Trees
+
+collection framework parts --> it includes only non-primitive data structure
