@@ -1,0 +1,50 @@
+Collection --> It is the single entity or object which can store multiple data
+Framework  --> represents the library
+
+collection framework --> It is the set of predefined classes and interfaces which is used to store multiple data
+
+-> It contains 2 main parts..
+1-> java.util.Collection --> in collection we can store the data directly
+2-> java.util.Map --> in Map we have to store the data in the form of key and value pair
+
+Hierarchy of collection and map --------> 
+
+                                                            Collection 
+                                                                |
+                                                                |
+                                                                |
+                List ------------------------------------------Set--------------------------------------------------Queue
+                 |                                              |-----------------------                              |
+                 |                                            HashSet                   |                  ---------------------
+LinkedList-----ArrayList------vector                            |                   Sorted Set             |                    |
+                                |                             Linked HashSet            |                  Priority queue       |
+                                |                                                   Navigable Set                               |
+                              Stack                                                     |                                       |
+                                                                                    Tree Set                     ----------------               
+                                                                                                                 |
+                                                                                                                 |
+                                                                                                                 Dequeue
+                                                                                                                 |
+                                                                                                                 Array Dequeue
+
+ 
+
+                                                            Map 
+                                                             |
+                                                             |                                                    Dictionary
+                                                             |                                                     |
+      --------------------------------------------------------------------------------------------------------------
+      |                |                         |                             |                                   |
+      |                |                         |                             |                                   |
+      |                |                         |                            Sorted Map                           |
+      |                |                         |                             |                                  Hashtable
+      |                |                         |                             |                                   |
+      |                |                         |                            Navigable Map                        |
+      |                |                         |                             |                                   |
+      |                |                         |                             |                                  Properties
+      |                |                         |                             |
+      HashMap          Identity HashMap       Weak HashMap                    Tree Map
+      |
+      |
+      |
+      LinkedHashMap
