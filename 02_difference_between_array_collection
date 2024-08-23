@@ -1,0 +1,11 @@
+Difference between Array and collections framework-->
+
+Arrays ---> Arrays can store primitive and non primitive types of data
+       ---> Arrays can store only homogenous types of data means same type of data
+       ---> Arrays size is fixed we cannot increase or decrease the size of array at runtime
+       ---> Arrays are inbuilt features of java and thus we have to develop algorithms
+
+Collection framework ---> They can store only non primitive types of data     
+                     ---> We can store hetrogenous type of data means different type of data 
+                     ---> We can increase or decrease the size of collections at runtime 
+                     ---> Collection framework is an api which provides pre defined classes interfaces and methods
