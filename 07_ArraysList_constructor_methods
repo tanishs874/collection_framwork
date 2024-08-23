@@ -1,0 +1,236 @@
+properties of array list
+
+1)Array list are index based data structure
+2)Array list can store different data types
+3)Array list can store duplicate values
+4)Array list can store any number of null values
+5)Array list follows the insertion order
+6)Array list does not follow the sorting order
+7)Array list are non synchronized
+
+1)package hero;
+import java.util.ArrayList;
+public class flat{
+	public static void main(String [] args) {
+		ArrayList al = new ArrayList();
+	}
+}
+->ArrayList with capacity 10..
+->It means this arraylist can store 10 elements.
+
+2)package hero;
+import java.util.ArrayList;
+public class flat{
+	public static void main(String [] args) {
+		ArrayList al = new ArrayList(6);
+	}
+}
+->ArrayList with capacity 6..
+->It means this arraylist can store 6 elements..
+
+3)How to make ArrayList and add elements in it .
+
+package hero;
+import java.util.ArrayList;
+public class flat {
+	public static void main(String [] args) {
+		ArrayList al = new ArrayList();
+		al.add(100);
+		al.add(200);
+		al.add(300);
+		System.out.println(al);
+	}
+}
+
+
+4) How to use addAll method .
+
+package hero;
+import java.util.ArrayList;
+public class flat {
+	public static void main(String [] args) {
+		ArrayList al = new ArrayList();
+		al.add(100);
+		al.add(200);
+		al.add("tanish");
+		al.add("sharma");
+		ArrayList al1 = new ArrayList();
+		al1.add("TANISH SHARMA");
+		al1.add(10000);
+		al1.addAll(al);
+		System.out.println(al1);
+		
+	}
+}
+
+5) How to use add method .
+
+package hero;
+import java.util.ArrayList;
+public class flat {
+	public static void main(String [] args) {
+		ArrayList al = new ArrayList();
+		al.add(100);
+		al.add(200);
+		al.add("tanish");
+		al.add("sharma");
+		System.out.println(al.add("tanish sharma"));
+		System.out.println(al);
+	}
+}
+
+6) How to use contains method.
+
+package hero;
+import java.util.ArrayList;
+public class flat {
+	public static void main(String [] args) {
+		ArrayList al = new ArrayList();
+		al.add(100);
+		al.add(200);
+		al.add("tanish");
+		al.add("sharma");
+		System.out.println(al.contains("tanish"));
+	}
+}
+
+
+7)How to use isEmpty method.
+
+package hero;
+import java.util.ArrayList;
+public class flat {
+	public static void main(String [] args) {
+		ArrayList al = new ArrayList();
+		al.add(100);
+		al.add(200);
+		al.add("tanish");
+		al.add("sharma");
+		System.out.println(al.isEmpty());
+		ArrayList al1 = new ArrayList();
+		System.out.println(al1.isEmpty());
+	}
+}
+
+
+8)How to use remove method .
+package hero;
+import java.util.ArrayList;
+public class flat {
+	public static void main(String [] args) {
+		ArrayList al = new ArrayList();
+		al.add(100);
+		al.add(200);
+		al.add("tanish");
+		al.add("sharma");
+		System.out.println(al);
+		al.remove("tanish");
+		al.remove(0);
+		System.out.println(al);	
+	}
+}
+
+
+9)How to use removeAll method.
+
+package hero;
+import java.util.ArrayList;
+public class flat {
+	public static void main(String [] args) {
+		ArrayList al = new ArrayList();
+		al.add("aaa");
+		al.add("bbb");
+		al.add("ccc");
+		ArrayList al1 = new ArrayList();
+		al1.add("ddd");
+		al1.add("eee");
+		al1.add("bbb");
+		al.removeAll(al1);
+		System.out.println(al);
+	    System.out.println(al1);
+	}
+}
+
+
+10) How to use clear method.
+
+package hero;
+import java.util.ArrayList;
+public class flat {
+	public static void main(String [] args) {
+		ArrayList al = new ArrayList();
+		al.add("aaa");
+		al.add("bbb");
+		al.add("ccc");
+		al.clear();
+		ArrayList al1 = new ArrayList();
+		al1.add("ddd");
+		al1.add("eee");
+		al1.add("bbb");
+		al1.clear();
+		System.out.println(al);
+	    System.out.println(al1);
+	}
+}
+
+11) An ArrayList can have duplicate elemtns ..
+
+package hero;
+import java.util.ArrayList;
+import java.util.List;
+public class flat{
+	public static void main(String [] args) {
+		List l = new ArrayList();
+	    l.add(0,10);
+	    l.add(1, 20);
+	    l.add(2,30);
+	    l.add(40);
+	    l.add(40);
+	    l.add(5,30);
+	    System.out.println(l);
+	}
+}
+
+12) An  ArrayList can have more than 1 null value ..
+
+package hero;
+import java.util.ArrayList;
+import java.util.List;
+public class flat{
+	public static void main(String [] args) {
+		List l = new ArrayList();
+	    l.add(0,10);
+	    l.add(1, 20);
+	    l.add(2,30);
+	    l.add(null);
+	    l.add(null);
+	    l.add(null);
+	    System.out.println(l);
+	}
+}
+
+13)We can use both Iterator and listIterator in List..
+ 
+package hero;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
+public class flat{
+	public static void main(String [] args) {
+		List l = new ArrayList();
+	    l.add(0,10);
+	    l.add(1, 20);
+	    l.add(2,30);
+	    l.add(40);
+	    Iterator itr = l.iterator();
+	    while(itr.hasNext()) {
+	    	System.out.println(itr.next());
+	    ListIterator litr = l.listIterator();
+	    while(litr.hasNext()) {
+	    	System.out.println(litr.next());
+	    }
+	    }
+	}
+}
+
