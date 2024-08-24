@@ -1,0 +1,36 @@
+TreeMap ------>
+It is an implemented class of navigable map but it also inherit properties of sorted map and map interface
+It was introduced in jdk 1.2 version
+Tree map underline data structure is red-black Tree
+
+
+properties---->
+we store the data in key value pair 
+key should be unique value can be duplicate
+TreeMap does not follow the insertion order 
+TreeMap follows the sorting order with respect to keys
+It can store homogenous and hetrogenous data types
+TreeMap cannot store null values
+TreeMap is non synchronized
+
+
+
+package collection_framework;
+import java.util.*;
+public class q1 {
+	public static void main(String[] args) {
+		TreeMap tm = new TreeMap<>();
+		tm.put(1,"tanish");
+		tm.put(3, "sharma");
+		tm.put(2, "deepak");
+		tm.put(5, "rahul");
+		tm.put(4,"rohit");
+		System.out.println(tm);//tree map follows the sorting order
+		System.out.println(tm.ceilingEntry(3));//agar 3 key present hai to ye vahi return kar dega nahi to use bade wali key ki value return kar dega
+		System.out.println(tm.ceilingKey(2));
+		System.out.println(tm.firstKey());
+		System.out.println(tm.floorKey(2));// agar 2 key present hai to usko print karwa dega nahi to use choti key kara dega
+		System.out.println(tm.get(1));//agar key present nahi hai to null print kara dega
+		System.out.println(tm.headMap(2));
+	}
+}
