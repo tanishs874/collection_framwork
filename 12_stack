@@ -1,0 +1,90 @@
+stack-------->
+stack is a legacy class which was introduced in jdk 1.0 version
+stack is child class of vector class
+
+
+1)How to push values in a stack..
+
+package hero;
+import java.util.Stack;
+public class flat{
+	public static void main(String [] args) {
+		Stack s = new Stack();
+		s.push(10);
+		s.push(100);
+		s.push("tanish sharma");
+		s.push(101.9);
+		System.out.println(s);
+		
+	}
+}
+
+2)How to pop value in a stack..
+
+package hero;
+import java.util.Stack;
+public class flat{
+	public static void main(String [] args) {
+		Stack s = new Stack();
+		s.push(10);
+		s.push(100);
+		s.push("tanish sharma");
+		s.push(101.9);
+		System.out.println(s);
+		System.out.println(s.pop());
+		System.out.println(s);
+		
+	}
+}
+
+3)How to use peek method in Stack..
+
+package hero;
+import java.util.Stack;
+public class flat{
+	public static void main(String [] args) {
+		Stack s = new Stack();
+		s.push(10);
+		s.push(100);
+		s.push("tanish sharma");
+		s.push(101.9);
+		System.out.println(s);
+		System.out.println(s.peek());
+		System.out.println(s);
+		
+	}
+}
+
+4)How to use search method in Stack..
+
+package hero;
+import java.util.Stack;
+public class flat{
+	public static void main(String [] args) {
+		Stack s = new Stack();
+		s.push(10);
+		s.push(100);
+		s.push("tanish sharma");
+		s.push(101.9);
+		System.out.println(s);
+		System.out.println(s.search(100));
+	
+	}
+}
+
+5)How to use empty method in Stack..
+
+package hero;
+import java.util.Stack;
+public class flat{
+	public static void main(String [] args) {
+		Stack s = new Stack();
+		s.push(10);
+		s.push(100);
+		s.push("tanish sharma");
+		s.push(101.9);
+		System.out.println(s.empty());
+	
+	}
+}
+
