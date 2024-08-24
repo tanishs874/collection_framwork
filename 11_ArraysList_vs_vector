@@ -1,0 +1,18 @@
+ArrayList----------->
+It was introduced in jdk 1.2 version
+ArrayList is not legacy class
+ArrayList are non synchronized
+ArrayList is not thread safe
+Application speed is fast
+ArrayList does not guarantte for data security
+it does not provide any method to find capactiy
+
+
+vector ---------->
+It was introduced in jdk 1.0 version
+vector is legacy class 
+vector are synchronized 
+vector is thread safe
+Application speed is slow as compaerd to ArrayList
+vector provide guarantte for data security
+vector provide method (int capactiy()) to find the capacity of the vector
