@@ -1,0 +1,30 @@
+Map--------------->
+Map stores data in key value pair
+In map keys should be unique but value can be duplicate
+In map we can store maximum 1 null value but we can store multiple null value in value
+Map does not follow the insertion and sorting order 
+
+
+package collection_framework;
+import java.util.*;
+public class q1 {
+	public static void main(String[] args) {
+		Map map = new HashMap<>();
+		map.put(1,"tanish");
+		map.put(2,"sharma");
+		map.put(3,"abccd");
+		System.out.println(map);
+//		map.clear();//It will clear all the key and value in the map 
+//		System.out.print(map);//map will be cleared here 
+		System.out.println(map.containsKey(2));//boolean return 
+		System.out.println(map.containsValue("tanish"));//boolean return 
+		System.out.println(map.get(1));//it will return the value corresponding to the key
+		System.out.println(map.remove(1));// it will remove the key value pair of 1
+		System.out.println(map);//
+		System.out.println(map.replace(2,"ta"));
+		System.out.println(map);
+		System.out.println(map.size());
+		
+		
+	}
+}
