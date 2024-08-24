@@ -1,0 +1,203 @@
+HashSet--->
+it is an implemented class of set interface
+HashSet underline data strucuter is hashtable
+
+properties--->
+HashSet are not an indexed based data strucuter, they store the values according to their hashcode values
+HashSet does not have duplicate values
+HashSet does not store mulitple null values
+HashSet can store different data types , hetrogenous
+HashSet does not follow the insertion order
+HashSet does not follow the sorting order
+Hashset is non synchronized
+
+
+1) Write a Java program to append the specified element to the end of a hash set.
+
+package hero;
+import java.util.*;
+public class flat{
+	public static void main (String [] args) {
+		HashSet<String> hs = new HashSet<String>();
+		hs.add("red");
+		hs.add("blue");
+		hs.add("green");
+		hs.add("black");
+		System.out.println(hs);
+	}
+}
+
+2)  Write a Java program to iterate through all elements in a hash list.
+
+package hero;
+import java.util.*;
+public class flat{
+	public static void main (String [] args) {
+		HashSet<String> hs = new HashSet<String>();
+		hs.add("red");
+		hs.add("blue");
+		hs.add("green");
+		hs.add("black");
+		for(String element : hs) {
+			System.out.println(element);
+		}
+	}
+}
+
+3) Write a Java program to get the number of elements in a hash set.
+
+package hero;
+import java.util.*;
+public class flat{
+	public static void main (String [] args) {
+		HashSet<String> hs = new HashSet<String>();
+		hs.add("red");
+		hs.add("blue");
+		hs.add("green");
+		hs.add("black");
+		System.out.println(hs.size());
+	}
+}
+
+4) Write a Java program to empty an hash set.
+
+package hero;
+import java.util.*;
+public class flat{
+	public static void main (String [] args) {
+		HashSet<String> hs = new HashSet<String>();
+		hs.add("red");
+		hs.add("blue");
+		hs.add("green");
+		hs.add("black");
+		hs.removeAll(hs);
+		System.out.println(hs);
+	}
+}
+
+5) Write a Java program to test if a hash set is empty or not.
+
+package hero;
+import java.util.*;
+public class flat{
+	public static void main (String [] args) {
+		HashSet<String> hs = new HashSet<String>();
+		hs.add("red");
+		hs.add("blue");
+		hs.add("green");
+		hs.add("black");
+		System.out.println(hs.isEmpty());
+	}
+}
+
+6) Write a Java program to clone a hash set to another hash set.
+
+package hero;
+import java.util.*;
+public class flat{
+	public static void main (String [] args) {
+		HashSet<String> hs = new HashSet<String>();
+		hs.add("red");
+		hs.add("blue");
+		hs.add("green");
+		hs.add("black");
+		HashSet<String> hs1 = (HashSet)hs.clone();
+		System.out.println(hs1);
+	}
+}
+
+7) Write a Java program to convert a hash set to an array.
+
+package hero;
+import java.util.*;
+public class flat{
+	public static void main (String [] args) {
+		HashSet<String> hs = new HashSet<String>();
+		hs.add("red");
+		hs.add("blue");
+		hs.add("green");
+		hs.add("black");
+		String [] aray = new String[hs.size()];
+		hs.toArray(aray);
+		for(String element : aray) {
+			System.out.println(element);
+		}
+	}
+}
+
+8) Write a Java program to convert a hash set to a tree set.
+
+package hero;
+import java.util.*;
+public class flat{
+	public static void main (String [] args) {
+		HashSet<String> hs = new HashSet<String>();
+		hs.add("red");
+		hs.add("blue");
+		hs.add("green");
+		hs.add("black");
+		TreeSet<String> ts = new TreeSet<String>(hs);
+		System.out.println(ts);
+	}
+}
+
+9)  Write a Java program to compare two hash set.
+
+
+package hero;
+import java.util.*;
+public class flat{
+	public static void main (String [] args) {
+		HashSet<String> hs = new HashSet<String>();
+		hs.add("red");
+		hs.add("blue");
+		hs.add("green");
+		hs.add("black");
+		HashSet<String> hs1 = new HashSet<String>();
+		hs1.add("red");
+		hs1.add("blue");
+		hs1.add("green");
+		hs1.add("b");
+		HashSet<String> hs2 = new HashSet<String>();
+		for(String e : hs) {
+			System.out.println(hs1.contains(e)? "yes" : "no");
+		}
+	}
+}
+
+10)  Write a Java program to compare two sets and retain elements that are the same.
+
+package hero;
+import java.util.*;
+public class flat{
+	public static void main (String [] args) {
+		HashSet<String> hs = new HashSet<String>();
+		hs.add("red");
+		hs.add("blue");
+		hs.add("green");
+		hs.add("black");
+		HashSet<String> hs1 = new HashSet<String>();
+		hs1.add("red");
+		hs1.add("blue");
+		hs1.add("green");
+		hs1.add("b");
+		hs.retainAll(hs1);
+		System.out.println(hs);
+	}
+}
+
+11)  Write a Java program to remove all elements from a hash set.
+
+package hero;
+import java.util.*;
+public class flat{
+	public static void main (String [] args) {
+		HashSet<String> hs = new HashSet<String>();
+		hs.add("red");
+		hs.add("blue");
+		hs.add("green");
+		hs.add("black");
+		hs.removeAll(hs);
+		System.out.println(hs);
+	}
+}
