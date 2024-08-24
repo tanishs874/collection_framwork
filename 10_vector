@@ -1,0 +1,219 @@
+Vector ---->\
+vector is a legacy class which was introduced in java 1.0 jdk version
+vector is an implemented class of list interface
+The underline data strucutre of vector is growable array or resizable array
+vecotr is synchroized --> all legacy classes are synchroized...
+
+Properties of vector--->
+vector is an indexed based data strucutre
+vector can store differennt data types or hetrogenous data types
+we can store duplicate elements
+we can store multiple null values
+vector follows the insertion order
+vector does not follow the sorted order
+vector are synchroized collection
+
+1) Vector is an index based data structure..
+
+package hero;
+import java.util.Vector;
+public class flat{
+	public static void main(String [] args) {
+		Vector v = new Vector();
+		v.add(10);
+		v.add(20);
+		v.add("tanish");
+		v.add('c');
+		v.add(21.2);
+		System.out.println(v);
+	}
+}
+
+2)We can store different data types or hetrogeneous data type..
+
+package hero;
+import java.util.Vector;
+public class flat{
+	public static void main(String [] args) {
+		Vector v = new Vector();
+		v.add(10);
+		v.add(20);
+		v.add("tanish");
+		v.add('c');
+		v.add(21.2);
+		System.out.println(v);
+	}
+}
+
+3)We can Store duplicate elements..
+
+package hero;
+import java.util.Vector;
+public class flat{
+	public static void main(String [] args) {
+		Vector v = new Vector();
+		v.add(10);
+		v.add(10);
+		v.add("tanish");
+		v.add("tanish");
+		v.add(21.2);
+		System.out.println(v);
+	}
+}
+
+4)We can store multiple null values...
+
+package hero;
+import java.util.Vector;
+public class flat{
+	public static void main(String [] args) {
+		Vector v = new Vector();
+		v.add(10);
+		v.add(null);
+		v.add("tanish");
+		v.add(null);
+		v.add(21.2);
+		System.out.println(v);
+	}
+}
+
+5)Vector follows the insertion order..
+
+package hero;
+import java.util.Vector;
+public class flat{
+	public static void main(String [] args) {
+		Vector v = new Vector();
+		v.add(10);
+		v.add(20);
+		v.add("tanish");
+		v.add('c');
+		v.add(21.2);
+		System.out.println(v);
+	}
+}
+
+6)Vector does not follow the sorting order..
+7)Vector are synchronized collection...
+
+1)How to use addElement method in Vector..
+
+package hero;
+import java.util.Vector;
+public class flat{
+	public static void main(String [] args) {
+		Vector v = new Vector();
+		v.add(10);
+	    v.add(1, "system");
+		v.addElement(25);
+		System.out.println(v);
+	}
+}
+
+2) How to use firstElement method in Vector..
+
+package hero;
+import java.util.Vector;
+public class flat{
+	public static void main(String [] args) {
+		Vector v = new Vector();
+		v.add(10);
+	    v.add(1, "system");
+		v.addElement(25);
+		System.out.println(v.firstElement());
+	}
+}
+
+3)How to use lastElement method in Vector..
+
+package hero;
+import java.util.Vector;
+public class flat{
+	public static void main(String [] args) {
+		Vector v = new Vector();
+		v.add(10);
+	    v.add(1, "system");
+		v.addElement(25);
+		System.out.println(v.lastElement());
+	}
+}
+
+4)How to use removeElement method in Vector..
+
+package hero;
+import java.util.Vector;
+public class flat{
+	public static void main(String [] args) {
+		Vector v = new Vector();
+		v.add(10);
+	    v.add(1, "system");
+		v.addElement(25);
+		v.removeElement(25);
+		System.out.println(v);
+	}
+}
+
+5)How to use removeElementAt method in Vector..
+
+package hero;
+import java.util.Vector;
+public class flat{
+	public static void main(String [] args) {
+		Vector v = new Vector();
+		v.add(10);
+	    v.add(1, "system");
+		v.addElement(25);
+		v.removeElementAt(0);
+		System.out.println(v);
+	}
+}
+
+6)How to use removeAllElements method in Vector..
+
+package hero;
+import java.util.Vector;
+public class flat{
+	public static void main(String [] args) {
+		Vector v = new Vector();
+		v.add(10);
+	    v.add(1, "system");
+		v.addElement(25);
+		v.removeAllElements();
+		System.out.println(v);
+	}
+}
+
+7)How to use capacity method in Vector..
+
+package hero;
+import java.util.Vector;
+public class flat{
+	public static void main(String [] args) {
+		Vector v = new Vector();
+		v.add(10);
+	    v.add(1, "system");
+		v.addElement(25);
+		v.add(78);
+		v.add(87);
+		v.add("tanish sharma");
+		System.out.println(v.capacity());
+	}
+}
+
+8)How to use setElementAt method in Vector..
+
+package hero;
+import java.util.Vector;
+public class flat{
+	public static void main(String [] args) {
+		Vector v = new Vector();
+		v.add(10);
+	    v.add(1, "system");
+		v.addElement(25);
+		v.add(78);
+		v.add(87);
+		v.add("tanish sharma");
+	    v.setElementAt("sharma",2);
+		System.out.println(v.capacity());
+	}
+}
